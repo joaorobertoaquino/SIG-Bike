@@ -5,6 +5,7 @@ void telaInicial(void);
 void clientes(void);
 void bicicletas(void);
 void patinetes(void);
+void locacao(void);
 void relatorios(void);
 void informacoes(void);
 
@@ -13,6 +14,7 @@ int main(){
     clientes();
     bicicletas();
     patinetes();
+    locacao();
     relatorios();
     informacoes();
     return 0;
