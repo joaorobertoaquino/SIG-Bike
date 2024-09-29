@@ -16,6 +16,11 @@ void atualizarCliente(void);
 void excluirCliente(void);
 
 //Módulo Bicicletas
+void cadastrarBicicleta(void);
+void pesquisarBicicleta(void);
+void atualizarBicicleta(void);
+void excluirBicicleta(void);
+
 //Módulo Patinetes
 //Módulo Locação
 //Relatórios
@@ -32,6 +37,10 @@ int main(){
     excluirCliente();
 
     bicicletas();
+    cadastrarBicicleta();
+    pesquisarBicicleta();
+    atualizarBicicleta();
+    excluirBicicleta();
 
     patinetes();
 
@@ -112,6 +121,7 @@ void excluirCliente(void){
     printf("*-------------------------------------------------------------------------------*\n");
 }
 
+
 void bicicletas(void){
     printf("\n*-------------------------------------------------------------------------------*\n");
     printf("*                               Módulo Bicicletas                               *\n");
@@ -121,6 +131,49 @@ void bicicletas(void){
     printf("|                             3. Atualizar                                      |\n");
     printf("|                             4. Deletar                                        |\n");
     printf("|                             0. Voltar                                         |\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+}
+
+void cadastrarBicicleta(void){
+    printf("\n*-------------------------------------------------------------------------------*\n");
+    printf("*                               Cadastrar Bicicleta                             *\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("| ID:                                                                           |\n");
+    printf("|                                                                               |\n");
+    printf("| Modelo:                                                                       |\n");
+    printf("| Cor:                                                                          |\n");
+    printf("| Marca:                                                                        |\n");
+    printf("| Ano de Fabricação:                                                            |\n");
+    printf("| Tamanho do Quadro:                                                            |\n");
+    printf("|                                                                               |\n");
+    printf("|                      Bicicleta cadastrada com sucesso!                        |\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+}
+
+void pesquisarBicicleta(void){
+    printf("\n*-------------------------------------------------------------------------------*\n");
+    printf("*                               Pesquisar Bicicleta                             *\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("| Informe o ID da Bicicleta:                                                    |\n");
+    printf("|                                                                               |\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+}
+
+void atualizarBicicleta(void){
+    printf("\n*-------------------------------------------------------------------------------*\n");
+    printf("*                          Atualizar Dados da Bicicleta                         *\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("| Informe o ID da Bicicleta:                                                    |\n");
+    printf("|                                                                               |\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+}
+
+void excluirBicicleta(void){
+    printf("\n*-------------------------------------------------------------------------------*\n");
+    printf("*                               Excluir Bicicleta                               *\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("| IInforme o ID da bicicleta à excluir:                                         |\n");
+    printf("|                                                                               |\n");
     printf("*-------------------------------------------------------------------------------*\n");
 }
 
