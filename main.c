@@ -22,6 +22,11 @@ void atualizarBicicleta(void);
 void excluirBicicleta(void);
 
 //Módulo Patinetes
+void cadastrarPatinete(void);
+void pesquisarPatinete(void);
+void atualizarPatinete(void);
+void deletarPatinete(void);
+
 //Módulo Locação
 //Relatórios
 //Informações
@@ -43,11 +48,13 @@ int main(){
     excluirBicicleta();
 
     patinetes();
+    cadastrarPatinete();
+    pesquisarPatinete();
+    atualizarPatinete();
+    deletarPatinete();
 
     locacao();
-
     relatorios();
-
     informacoes();
     return 0;
 }
@@ -172,7 +179,7 @@ void excluirBicicleta(void){
     printf("\n*-------------------------------------------------------------------------------*\n");
     printf("*                               Excluir Bicicleta                               *\n");
     printf("*-------------------------------------------------------------------------------*\n");
-    printf("| IInforme o ID da bicicleta à excluir:                                         |\n");
+    printf("| Informe o ID da bicicleta à excluir:                                         |\n");
     printf("|                                                                               |\n");
     printf("*-------------------------------------------------------------------------------*\n");
 }
@@ -188,6 +195,64 @@ void patinetes(void){
     printf("|                             0. Voltar                                         |\n");
     printf("*-------------------------------------------------------------------------------*\n");
 } 
+
+void cadastrarPatinete(void){
+    printf("\n*-------------------------------------------------------------------------------*\n");
+    printf("*                               Cadastrar Patinete                              *\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("| ID:                                                                           |\n");
+    printf("|                                                                               |\n");
+    printf("| Modelo:                                                                       |\n");
+    printf("| Cor:                                                                          |\n");
+    printf("| Marca:                                                                        |\n");
+    printf("| Ano de Fabricação:                                                            |\n");
+    printf("| Bateria (capacidade):                                                         |\n");
+    printf("|                                                                               |\n");
+    printf("|                      Patinete cadastrado com sucesso!                         |\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+}
+
+
+void pesquisarPatinete(void){
+    printf("\n*-------------------------------------------------------------------------------*\n");
+    printf("*                               Pesquisar Patinete                              *\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("| Informe o ID do Patinete:                                                     |\n");
+    printf("|                                                                               |\n");
+    printf("| Modelo:                                                                       |\n");
+    printf("| Cor:                                                                          |\n");
+    printf("| Marca:                                                                        |\n");
+    printf("| Ano de Fabricação:                                                            |\n");
+    printf("| Bateria (capacidade):                                                         |\n");
+    printf("|                                                                               |\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+}
+
+void atualizarPatinete(void){
+    printf("\n*-------------------------------------------------------------------------------*\n");
+    printf("*                          Atualizar Dados do Patinete                          *\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("| Informe o ID do Patinete:                                                     |\n");
+    printf("|                                                                               |\n");
+    printf("|                           ↪Digite os Novos Dados↩                             |\n");
+    printf("| Modelo:                                                                       |\n");
+    printf("| Cor:                                                                          |\n");
+    printf("| Marca:                                                                        |\n");
+    printf("| Ano de Fabricação:                                                            |\n");
+    printf("| Bateria (capacidade):                                                         |\n");
+    printf("|                                                                               |\n");
+    printf("|                                                                               |\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+}
+
+void deletarPatinete(void){
+    printf("\n*-------------------------------------------------------------------------------*\n");
+    printf("*                               Deletar Patinete                                *\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("| Informe o ID do patinete a excluir:                                           |\n");
+    printf("|                                                                               |\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+}
 
 void locacao(void){
     printf("\n*-------------------------------------------------------------------------------*\n");
