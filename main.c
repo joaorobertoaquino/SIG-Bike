@@ -13,7 +13,7 @@ void informacoes(void);
 void cadastrarCliente(void);
 void pesquisarCliente(void);
 void atualizarCliente(void);
-void excluirCliente(void);
+void deletarCliente(void);
 
 //Módulo Bicicletas
 void cadastrarBicicleta(void);
@@ -39,7 +39,7 @@ int main(){
     cadastrarCliente();
     pesquisarCliente();
     atualizarCliente();
-    excluirCliente();
+    deletarCliente();
 
     bicicletas();
     cadastrarBicicleta();
@@ -107,6 +107,12 @@ void pesquisarCliente(void){
     printf("*-------------------------------------------------------------------------------*\n");
     printf("| Digite o CPF do Cliente:                                                      |\n");
     printf("|                                                                               |\n");
+    printf("| Nome:                                                                         |\n");
+    printf("| CPF:                                                                          |\n");
+    printf("| Email:                                                                        |\n");
+    printf("| Fone:                                                                         |\n");
+    printf("| Data de Nascimento:                                                           |\n");
+    printf("|                                                                               |\n");
     printf("*-------------------------------------------------------------------------------*\n");
 }
 
@@ -116,10 +122,17 @@ void atualizarCliente(void){
     printf("*-------------------------------------------------------------------------------*\n");
     printf("| Digite o CPF do Cliente:                                                      |\n");
     printf("|                                                                               |\n");
+    printf("|                           ↪Digite os Novos Dados↩                             |\n");
+    printf("| Nome:                                                                         |\n");
+    printf("| CPF:                                                                          |\n");
+    printf("| Email:                                                                        |\n");
+    printf("| Fone:                                                                         |\n");
+    printf("| Data de Nascimento:                                                           |\n");
+    printf("|                                                                               |\n");
     printf("*-------------------------------------------------------------------------------*\n");
 }
 
-void excluirCliente(void){
+void deletarCliente(void){
     printf("\n*-------------------------------------------------------------------------------*\n");
     printf("*                               Excluir CLiente                                 *\n");
     printf("*-------------------------------------------------------------------------------*\n");
