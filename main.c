@@ -19,7 +19,7 @@ void deletarCliente(void);
 void cadastrarBicicleta(void);
 void pesquisarBicicleta(void);
 void atualizarBicicleta(void);
-void excluirBicicleta(void);
+void deletarBicicleta(void);
 
 //Módulo Patinetes
 void cadastrarPatinete(void);
@@ -45,7 +45,7 @@ int main(){
     cadastrarBicicleta();
     pesquisarBicicleta();
     atualizarBicicleta();
-    excluirBicicleta();
+    deletarBicicleta();
 
     patinetes();
     cadastrarPatinete();
@@ -103,7 +103,7 @@ void cadastrarCliente(void){
 
 void pesquisarCliente(void){
     printf("\n*-------------------------------------------------------------------------------*\n");
-    printf("*                          Pesquisar Dados do CLiente                           *\n");
+    printf("*                          Pesquisar Dados do Cliente                           *\n");
     printf("*-------------------------------------------------------------------------------*\n");
     printf("| Digite o CPF do Cliente:                                                      |\n");
     printf("|                                                                               |\n");
@@ -118,7 +118,7 @@ void pesquisarCliente(void){
 
 void atualizarCliente(void){
     printf("\n*-------------------------------------------------------------------------------*\n");
-    printf("*                         Atualizar Dados do CLiente                            *\n");
+    printf("*                         Atualizar Dados do Cliente                            *\n");
     printf("*-------------------------------------------------------------------------------*\n");
     printf("| Digite o CPF do Cliente:                                                      |\n");
     printf("|                                                                               |\n");
@@ -134,7 +134,7 @@ void atualizarCliente(void){
 
 void deletarCliente(void){
     printf("\n*-------------------------------------------------------------------------------*\n");
-    printf("*                               Excluir CLiente                                 *\n");
+    printf("*                               Excluir Cliente                                 *\n");
     printf("*-------------------------------------------------------------------------------*\n");
     printf("| Digite o CPF do Cliente:                                                      |\n");
     printf("|                                                                               |\n");
@@ -201,7 +201,7 @@ void atualizarBicicleta(void){
     printf("*-------------------------------------------------------------------------------*\n");
 }
 
-void excluirBicicleta(void){
+void deletarBicicleta(void){
     printf("\n*-------------------------------------------------------------------------------*\n");
     printf("*                               Excluir Bicicleta                               *\n");
     printf("*-------------------------------------------------------------------------------*\n");
