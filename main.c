@@ -9,13 +9,36 @@ void locacao(void);
 void relatorios(void);
 void informacoes(void);
 
+//Módulo Clientes
+void cadastrarCliente(void);
+void pesquisarCliente(void);
+void atualizarCliente(void);
+void excluirCliente(void);
+
+//Módulo Bicicletas
+//Módulo Patinetes
+//Módulo Locação
+//Relatórios
+//Informações
+
+
 int main(){
     telaInicial();
+
     clientes();
+    cadastrarCliente();
+    pesquisarCliente();
+    atualizarCliente();
+    excluirCliente();
+
     bicicletas();
+
     patinetes();
+
     locacao();
+
     relatorios();
+
     informacoes();
     return 0;
 }
@@ -44,6 +67,48 @@ void clientes(void){
     printf("|                             3. Atualizar                                      |\n");
     printf("|                             4. Deletar                                        |\n");
     printf("|                             0. Voltar                                         |\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+}
+
+void cadastrarCliente(void){
+    printf("\n*-------------------------------------------------------------------------------*\n");
+    printf("*                              Cadastrar Cliente                                *\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("| Nome:                                                                         |\n");
+    printf("| CPF:                                                                          |\n");
+    printf("| Email:                                                                        |\n");
+    printf("| Fone:                                                                         |\n");
+    printf("| Data de Nascimento:                                                           |\n");
+    printf("|                                                                               |\n");
+    printf("|                        Cliente cadastrado com sucesso!                        |\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+}
+
+
+void pesquisarCliente(void){
+    printf("\n*-------------------------------------------------------------------------------*\n");
+    printf("*                          Pesquisar Dados do CLiente                           *\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("| Digite o CPF do Cliente:                                                      |\n");
+    printf("|                                                                               |\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+}
+
+void atualizarCliente(void){
+    printf("\n*-------------------------------------------------------------------------------*\n");
+    printf("*                         Atualizar Dados do CLiente                            *\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("| Digite o CPF do Cliente:                                                      |\n");
+    printf("|                                                                               |\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+}
+
+void excluirCliente(void){
+    printf("\n*-------------------------------------------------------------------------------*\n");
+    printf("*                               Excluir CLiente                                 *\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("| Digite o CPF do Cliente:                                                      |\n");
+    printf("|                                                                               |\n");
     printf("*-------------------------------------------------------------------------------*\n");
 }
 
