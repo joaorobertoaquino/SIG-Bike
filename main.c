@@ -61,6 +61,7 @@ int main(){
 }
 
 void telaInicial(void){
+    char op_pric;
     printf("*-------------------------------------------------------------------------------*\n");
     printf("|                         Seja Bem Vindo ao SIG - Bike                          |\n");
     printf("*-------------------------------------------------------------------------------*\n");
@@ -73,8 +74,11 @@ void telaInicial(void){
     printf("|                            0. Sair                                            |\n");
     printf("|                                                                               |\n");
     printf("| Digite o número da opção desejada:                                            |\n");
+    scanf("%c", &op_pric);
+    getchar();
     printf("*-------------------------------------------------------------------------------*\n");
     printf("Tecle <ENTER> para continuar...");
+    getchar();
 }
 
 void clientes(void){
