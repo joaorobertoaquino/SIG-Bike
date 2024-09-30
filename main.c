@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//Telas Principais
 void telaInicial(void);
 void clientes(void);
 void bicicletas(void);
@@ -70,8 +71,10 @@ void telaInicial(void){
     printf("|                            5. Relatórios                                      |\n");
     printf("|                            6. Informações                                     |\n");
     printf("|                            0. Sair                                            |\n");
+    printf("|                                                                               |\n");
+    printf("| Digite o número da opção desejada:                                            |\n");
     printf("*-------------------------------------------------------------------------------*\n");
-
+    printf("Tecle <ENTER> para continuar...");
 }
 
 void clientes(void){
@@ -84,12 +87,14 @@ void clientes(void){
     printf("|                             4. Deletar                                        |\n");
     printf("|                             0. Voltar                                         |\n");
     printf("*-------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
 }
 
 void cadastrarCliente(void){
     printf("\n*-------------------------------------------------------------------------------*\n");
     printf("*                              Cadastrar Cliente                                *\n");
     printf("*-------------------------------------------------------------------------------*\n");
+    printf("|                                                                               |\n");
     printf("| Nome:                                                                         |\n");
     printf("| CPF:                                                                          |\n");
     printf("| Email:                                                                        |\n");
@@ -98,6 +103,7 @@ void cadastrarCliente(void){
     printf("|                                                                               |\n");
     printf("|                        Cliente cadastrado com sucesso!                        |\n");
     printf("*-------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
 }
 
 
@@ -114,6 +120,7 @@ void pesquisarCliente(void){
     printf("| Data de Nascimento:                                                           |\n");
     printf("|                                                                               |\n");
     printf("*-------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
 }
 
 void atualizarCliente(void){
@@ -130,6 +137,7 @@ void atualizarCliente(void){
     printf("| Data de Nascimento:                                                           |\n");
     printf("|                                                                               |\n");
     printf("*-------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
 }
 
 void deletarCliente(void){
@@ -139,6 +147,7 @@ void deletarCliente(void){
     printf("| Digite o CPF do Cliente:                                                      |\n");
     printf("|                                                                               |\n");
     printf("*-------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
 }
 
 
@@ -152,6 +161,7 @@ void bicicletas(void){
     printf("|                             4. Deletar                                        |\n");
     printf("|                             0. Voltar                                         |\n");
     printf("*-------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
 }
 
 void cadastrarBicicleta(void){
@@ -168,6 +178,7 @@ void cadastrarBicicleta(void){
     printf("|                                                                               |\n");
     printf("|                      Bicicleta cadastrada com sucesso!                        |\n");
     printf("*-------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
 }
 
 void pesquisarBicicleta(void){
@@ -183,6 +194,7 @@ void pesquisarBicicleta(void){
     printf("| Tamanho do Quadro:                                                            |\n");
     printf("|                                                                               |\n");
     printf("*-------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
 }
 
 void atualizarBicicleta(void){
@@ -199,15 +211,17 @@ void atualizarBicicleta(void){
     printf("| Tamanho do Quadro:                                                            |\n");
     printf("|                                                                               |\n");
     printf("*-------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
 }
 
 void deletarBicicleta(void){
     printf("\n*-------------------------------------------------------------------------------*\n");
     printf("*                               Excluir Bicicleta                               *\n");
     printf("*-------------------------------------------------------------------------------*\n");
-    printf("| Informe o ID da bicicleta à excluir:                                         |\n");
+    printf("| Informe o ID da bicicleta à excluir:                                          |\n");
     printf("|                                                                               |\n");
     printf("*-------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
 }
 
 void patinetes(void){
@@ -220,6 +234,7 @@ void patinetes(void){
     printf("|                             4. Deletar                                        |\n");
     printf("|                             0. Voltar                                         |\n");
     printf("*-------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
 } 
 
 void cadastrarPatinete(void){
@@ -236,6 +251,7 @@ void cadastrarPatinete(void){
     printf("|                                                                               |\n");
     printf("|                      Patinete cadastrado com sucesso!                         |\n");
     printf("*-------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
 }
 
 
@@ -252,6 +268,7 @@ void pesquisarPatinete(void){
     printf("| Bateria (capacidade):                                                         |\n");
     printf("|                                                                               |\n");
     printf("*-------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
 }
 
 void atualizarPatinete(void){
@@ -269,6 +286,7 @@ void atualizarPatinete(void){
     printf("|                                                                               |\n");
     printf("|                                                                               |\n");
     printf("*-------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
 }
 
 void deletarPatinete(void){
@@ -278,6 +296,7 @@ void deletarPatinete(void){
     printf("| Informe o ID do patinete a excluir:                                           |\n");
     printf("|                                                                               |\n");
     printf("*-------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
 }
 
 void locacao(void){
@@ -289,6 +308,7 @@ void locacao(void){
     printf("|                             3. Consultar Locação                              |\n");
     printf("|                             0. Voltar                                         |\n");
     printf("*-------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
 }
 
 void relatorios(void){
@@ -302,10 +322,11 @@ void relatorios(void){
     printf("|                             5. Histórico de Alugueis                          |\n");
     printf("|                             0. Voltar                                         |\n");
     printf("*-------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
 }
 
 void informacoes(void){
-    printf("*-------------------------------------------------------------------------------*\n");
+    printf("\n*-------------------------------------------------------------------------------*\n");
     printf("|                               Informações                                     |\n");
     printf("*-------------------------------------------------------------------------------*\n");
     printf("| O SIG-Bike é um sistema simples destinado à gestão de uma empresa de locação  |\n");
@@ -318,4 +339,5 @@ void informacoes(void){
     printf("|                        Ariadny Dantas | @ariadnyD                             |\n");
     printf("|                        João Roberto   | @joaorobertoaquino                    |\n");
     printf("*-------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
 }
