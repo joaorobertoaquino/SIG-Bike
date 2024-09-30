@@ -82,6 +82,7 @@ void telaInicial(void){
 }
 
 void clientes(void){
+    char op_cliente;
     printf("\n*-------------------------------------------------------------------------------*\n");
     printf("*                               Módulo Clientes                                 *\n");
     printf("*-------------------------------------------------------------------------------*\n");
@@ -90,8 +91,13 @@ void clientes(void){
     printf("|                             3. Atualizar                                      |\n");
     printf("|                             4. Deletar                                        |\n");
     printf("|                             0. Voltar                                         |\n");
+    printf("|                                                                               |\n");
+    printf("| Digite a opção desejada:                                                      |\n");
+    scanf("%c", &op_cliente);
+    getchar();
     printf("*-------------------------------------------------------------------------------*\n");
     printf("Tecle <ENTER> para continuar...");
+    getchar();
 }
 
 void cadastrarCliente(void){
