@@ -241,6 +241,7 @@ void deletarBicicleta(void){
 }
 
 void patinetes(void){
+    char op_patinete;
     printf("\n*-------------------------------------------------------------------------------*\n");
     printf("*                               Módulo Patinetes                                *\n");
     printf("*--------------------------------------------------------------------------------*\n");
@@ -249,8 +250,13 @@ void patinetes(void){
     printf("|                             3. Atualizar                                      |\n");
     printf("|                             4. Deletar                                        |\n");
     printf("|                             0. Voltar                                         |\n");
+    printf("|                                                                               |\n");
+    printf("| Digite a opção desejada:                                                      |\n");
+    scanf("%c", &op_patinete);
+    getchar();
     printf("*-------------------------------------------------------------------------------*\n");
     printf("Tecle <ENTER> para continuar...");
+    getchar();
 } 
 
 void cadastrarPatinete(void){
