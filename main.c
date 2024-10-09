@@ -29,6 +29,11 @@ void atualizarPatinete(void);
 void deletarPatinete(void);
 
 //Módulo Locação
+void reservarBicicleta(void);
+void reservarPatinete(void);
+void devolverBicicleta(void);
+void devolverPatinete(void);
+void consultarAluguel(void);
 //Relatórios
 //Informações
 
@@ -55,6 +60,12 @@ int main(){
     deletarPatinete();
 
     locacao();
+    reservarBicicleta();
+    reservarPatinete();
+    devolverBicicleta();
+    devolverPatinete();
+    consultarAluguel();
+
     relatorios();
     informacoes();
     return 0;
@@ -322,6 +333,7 @@ void deletarPatinete(void){
 }
 
 void locacao(void){
+    char op_locacao;
     printf("\n*-------------------------------------------------------------------------------*\n");
     printf("*                               Módulo Locação                                  *\n");
     printf("*-------------------------------------------------------------------------------*\n");
@@ -329,6 +341,62 @@ void locacao(void){
     printf("|                             2. Devolver Bicicleta/Patinete                    |\n");
     printf("|                             3. Consultar Locação                              |\n");
     printf("|                             0. Voltar                                         |\n");
+    printf("| Digite a opção desejada:                                                      |\n");
+    scanf("%c", &op_locacao);
+    getchar();
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
+    getchar();
+}
+
+void reservarBicicleta(void){
+    printf("\n*-------------------------------------------------------------------------------*\n");
+    printf("*                              Reservar Bicicleta                               *\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("| Informe o ID da Bicicleta:                                                    |\n");
+    printf("|                                                                               |\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
+}
+
+void reservarPatinete(void){
+    printf("\n*-------------------------------------------------------------------------------*\n");
+    printf("*                              Reservar Patinete                                *\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("| Informe o ID do Patinete:                                                     |\n");
+    printf("|                                                                               |\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
+}
+
+void devolverBicicleta(void){
+    printf("\n*-------------------------------------------------------------------------------*\n");
+    printf("*                              Devolver Bicicleta                               *\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("| Informe o ID da Bicicleta:                                                    |\n");
+    printf("|                                                                               |\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
+}
+
+void devolverPatinete(void){
+    printf("\n*-------------------------------------------------------------------------------*\n");
+    printf("*                              Devolver Patinete                                *\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("| Informe o ID do Patinete:                                                     |\n");
+    printf("|                                                                               |\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
+}
+
+void consultarAluguel(void){
+    printf("\n*-------------------------------------------------------------------------------*\n");
+    printf("*                              Consultar Aluguel                                *\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("| Você deseja consultar por ""Bicicleta"" ou ""Patinete"" ?:                    |\n");
+    printf("|                                                                               |\n");
+    printf("| Informe o ID:                                                                 |\n");
+    printf("|                                                                               |\n");
     printf("*-------------------------------------------------------------------------------*\n");
     printf("Tecle <ENTER> para continuar...");
 }
