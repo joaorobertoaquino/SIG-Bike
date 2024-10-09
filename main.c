@@ -33,8 +33,13 @@ void reservarBicicleta(void);
 void reservarPatinete(void);
 void devolverBicicleta(void);
 void devolverPatinete(void);
-void consultarAluguel(void);
+
 //Relatórios
+void listarClientes(void);
+//void listarBicicletas(void);
+//void listarPatinetes(void);
+void consultarAluguel(void);
+
 //Informações
 
 
@@ -64,9 +69,12 @@ int main(){
     reservarPatinete();
     devolverBicicleta();
     devolverPatinete();
-    consultarAluguel();
 
     relatorios();
+    listarClientes();
+    //listarBicicletas();
+    //listarPatinetes();
+    consultarAluguel();
     informacoes();
     return 0;
 }
@@ -170,7 +178,6 @@ void deletarCliente(void){
     printf("*-------------------------------------------------------------------------------*\n");
     printf("Tecle <ENTER> para continuar...");
 }
-
 
 void bicicletas(void){
     char op_bicicleta;
@@ -402,6 +409,7 @@ void consultarAluguel(void){
 }
 
 void relatorios(void){
+    char op_locacao;
     printf("\n*-------------------------------------------------------------------------------*\n");
     printf("*                                Módulo Relatório                               *\n");
     printf("*-------------------------------------------------------------------------------*\n");
@@ -412,6 +420,19 @@ void relatorios(void){
     printf("|                             5. Histórico de Alugueis                          |\n");
     printf("|                             0. Voltar                                         |\n");
     printf("*-------------------------------------------------------------------------------*\n");
+    scanf("%c", &op_locacao);
+    getchar();
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
+    getchar();
+}
+
+void listarClientes(void){
+    printf("\n*-----------------------------------------------------------------------------------------------------------*\n");
+    printf("*                                          Listar Clientes                                                   *\n");
+    printf("*------------------------------------------------------------------------------------------------------------*\n");
+    printf("|       Nome        |       CPF       |           Email             |      Fone      |   Data de Nacimento   |\n");
+    printf("*------------------------------------------------------------------------------------------------------------*\n");
     printf("Tecle <ENTER> para continuar...");
 }
 
