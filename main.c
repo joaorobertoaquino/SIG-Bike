@@ -36,7 +36,7 @@ void devolverPatinete(void);
 
 //Relatórios
 void listarClientes(void);
-//void listarBicicletas(void);
+void listarBicicletas(void);
 //void listarPatinetes(void);
 void consultarAluguel(void);
 
@@ -72,7 +72,7 @@ int main(){
 
     relatorios();
     listarClientes();
-    //listarBicicletas();
+    listarBicicletas();
     //listarPatinetes();
     consultarAluguel();
     informacoes();
@@ -428,10 +428,19 @@ void relatorios(void){
 }
 
 void listarClientes(void){
-    printf("\n*-----------------------------------------------------------------------------------------------------------*\n");
+    printf("\n*------------------------------------------------------------------------------------------------------------*\n");
     printf("*                                          Listar Clientes                                                   *\n");
     printf("*------------------------------------------------------------------------------------------------------------*\n");
     printf("|       Nome        |       CPF       |           Email             |      Fone      |   Data de Nacimento   |\n");
+    printf("*------------------------------------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
+}
+
+void listarBicicletas(void){
+    printf("\n*------------------------------------------------------------------------------------------------------------*\n");
+    printf("*                                         Listar Bicicletas                                                  *\n");
+    printf("*------------------------------------------------------------------------------------------------------------*\n");
+    printf("|     ID     |         Modelo          |         Marca          | Ano de Fabricação |   Tamanho do Quadro    |\n");
     printf("*------------------------------------------------------------------------------------------------------------*\n");
     printf("Tecle <ENTER> para continuar...");
 }
