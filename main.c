@@ -396,18 +396,6 @@ void devolverPatinete(void){
     printf("Tecle <ENTER> para continuar...");
 }
 
-void consultarAluguel(void){
-    printf("\n*-------------------------------------------------------------------------------*\n");
-    printf("*                              Consultar Aluguel                                *\n");
-    printf("*-------------------------------------------------------------------------------*\n");
-    printf("| Você deseja consultar por ""Bicicleta"" ou ""Patinete"" ?:                    |\n");
-    printf("|                                                                               |\n");
-    printf("| Informe o ID:                                                                 |\n");
-    printf("|                                                                               |\n");
-    printf("*-------------------------------------------------------------------------------*\n");
-    printf("Tecle <ENTER> para continuar...");
-}
-
 void relatorios(void){
     char op_relatorio;
     printf("\n*-------------------------------------------------------------------------------*\n");
@@ -452,6 +440,18 @@ void listarPatinetes(void){
     printf("*------------------------------------------------------------------------------------------------------------*\n");
     printf("|     ID     |         Modelo          |         Marca          | Ano de Fabricação |  Bateria (capacidade)  |\n");
     printf("*------------------------------------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
+}
+
+void consultarAluguel(void){
+    printf("\n*-------------------------------------------------------------------------------*\n");
+    printf("*                              Consultar Aluguel                                *\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("| Você deseja consultar por ""Bicicleta"" ou ""Patinete"" ?:                    |\n");
+    printf("|                                                                               |\n");
+    printf("| Informe o ID:                                                                 |\n");
+    printf("|                                                                               |\n");
+    printf("*-------------------------------------------------------------------------------*\n");
     printf("Tecle <ENTER> para continuar...");
 }
 
