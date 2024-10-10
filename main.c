@@ -409,7 +409,7 @@ void consultarAluguel(void){
 }
 
 void relatorios(void){
-    char op_locacao;
+    char op_relatorio;
     printf("\n*-------------------------------------------------------------------------------*\n");
     printf("*                                Módulo Relatório                               *\n");
     printf("*-------------------------------------------------------------------------------*\n");
@@ -420,7 +420,8 @@ void relatorios(void){
     printf("|                             5. Histórico de Alugueis                          |\n");
     printf("|                             0. Voltar                                         |\n");
     printf("*-------------------------------------------------------------------------------*\n");
-    scanf("%c", &op_locacao);
+    printf("| Digite a opção desejada:                                                      |\n");
+    scanf("%c", &op_relatorio);
     getchar();
     printf("*-------------------------------------------------------------------------------*\n");
     printf("Tecle <ENTER> para continuar...");
