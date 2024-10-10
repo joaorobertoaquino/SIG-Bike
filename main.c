@@ -37,7 +37,7 @@ void devolverPatinete(void);
 //Relatórios
 void listarClientes(void);
 void listarBicicletas(void);
-//void listarPatinetes(void);
+void listarPatinetes(void);
 void consultarAluguel(void);
 
 //Informações
@@ -73,7 +73,7 @@ int main(){
     relatorios();
     listarClientes();
     listarBicicletas();
-    //listarPatinetes();
+    listarPatinetes();
     consultarAluguel();
     informacoes();
     return 0;
@@ -441,6 +441,15 @@ void listarBicicletas(void){
     printf("*                                         Listar Bicicletas                                                  *\n");
     printf("*------------------------------------------------------------------------------------------------------------*\n");
     printf("|     ID     |         Modelo          |         Marca          | Ano de Fabricação |   Tamanho do Quadro    |\n");
+    printf("*------------------------------------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
+}
+
+void listarPatinetes(void){
+    printf("\n*------------------------------------------------------------------------------------------------------------*\n");
+    printf("*                                         Listar Patinetes                                                   *\n");
+    printf("*------------------------------------------------------------------------------------------------------------*\n");
+    printf("|     ID     |         Modelo          |         Marca          | Ano de Fabricação |  Bateria (capacidade)  |\n");
     printf("*------------------------------------------------------------------------------------------------------------*\n");
     printf("Tecle <ENTER> para continuar...");
 }
