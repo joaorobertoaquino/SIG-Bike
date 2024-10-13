@@ -56,7 +56,6 @@ int main(){
     atualizarBicicleta();
     deletarBicicleta();
 
-    patinetes();
     cadastrarPatinete();
     pesquisarPatinete();
     atualizarPatinete();
@@ -101,6 +100,10 @@ void telaInicial(void){
 
         case 2:
             bicicletas();
+            break;
+
+        case 3:
+            patinetes();
             break;
 
     }
