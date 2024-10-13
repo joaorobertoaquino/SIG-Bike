@@ -61,7 +61,6 @@ int main(){
     atualizarPatinete();
     deletarPatinete();
 
-    locacao();
     reservarBicicleta();
     reservarPatinete();
     devolverBicicleta();
@@ -104,6 +103,10 @@ void telaInicial(void){
 
         case 3:
             patinetes();
+            break;
+
+        case 4:
+            locacao();
             break;
 
     }
