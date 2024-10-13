@@ -45,47 +45,45 @@ void consultarAluguel(void);
 
 int main(){
     int op_pric;
-    do{
-        telaInicial();
-        scanf("%d", &op_pric);
-        getchar();
-        switch (op_pric){
-            case 1:
-                clientes();
-                break;
 
-            case 2:
-                bicicletas();
-                break;
-
-            case 3:
-                patinetes();
-                break;
-
-            case 4:
-                locacao();
-                break;
-
-            case 5:
-                relatorios();
-                break;
-
-            case 6:
-                informacoes();
-                break;
-
-            case 0:
-                printf("Saindo do sistema...\n");
-                exit(0);
-
-            default:
-                printf("Opção inválida! Tente novamente.\n");
-                telaInicial();
+    telaInicial();
+    scanf("%d", &op_pric);
+    getchar();
+    switch (op_pric){
+        case 1:
+            clientes();
             break;
-        }
-    }while(op_pric != 0);
-    return 0;
-}
+
+        case 2:
+            bicicletas();
+            break;
+
+        case 3:
+            patinetes();
+            break;
+
+        case 4:
+            locacao();
+            break;
+
+        case 5:
+            relatorios();
+            break;
+
+        case 6:
+            informacoes();
+            break;
+
+        case 0:
+            printf("Saindo do sistema...\n");
+            exit(0);
+
+        default:
+            printf("Opção inválida! Tente novamente.\n");
+            telaInicial();
+        break;
+    }
+
 //     cadastrarCliente();
 //     pesquisarCliente();
 //     atualizarCliente();
@@ -110,6 +108,8 @@ int main(){
 //     listarBicicletas();
 //     listarPatinetes();
 //     consultarAluguel();
+    return 0;
+}
 // }
 
 
