@@ -44,38 +44,76 @@ void consultarAluguel(void);
 
 
 int main(){
-    telaInicial();
+    int op_pric;
+    do{
+        telaInicial();
+        scanf("%d", &op_pric);
+        getchar();
+        switch (op_pric){
+            case 1:
+                clientes();
+                break;
 
-    cadastrarCliente();
-    pesquisarCliente();
-    atualizarCliente();
-    deletarCliente();
+            case 2:
+                bicicletas();
+                break;
 
-    cadastrarBicicleta();
-    pesquisarBicicleta();
-    atualizarBicicleta();
-    deletarBicicleta();
+            case 3:
+                patinetes();
+                break;
 
-    cadastrarPatinete();
-    pesquisarPatinete();
-    atualizarPatinete();
-    deletarPatinete();
+            case 4:
+                locacao();
+                break;
 
-    reservarBicicleta();
-    reservarPatinete();
-    devolverBicicleta();
-    devolverPatinete();
+            case 5:
+                relatorios();
+                break;
 
-    listarClientes();
-    listarBicicletas();
-    listarPatinetes();
-    consultarAluguel();
+            case 6:
+                informacoes();
+                break;
 
+            case 0:
+                printf("Saindo do sistema...\n");
+                exit(0);
+
+            default:
+                printf("Opção inválida! Tente novamente.\n");
+                telaInicial();
+            break;
+        }
+    }while(op_pric != 0);
     return 0;
 }
+//     cadastrarCliente();
+//     pesquisarCliente();
+//     atualizarCliente();
+//     deletarCliente();
+
+//     cadastrarBicicleta();
+//     pesquisarBicicleta();
+//     atualizarBicicleta();
+//     deletarBicicleta();
+
+//     cadastrarPatinete();
+//     pesquisarPatinete();
+//     atualizarPatinete();
+//     deletarPatinete();
+
+//     reservarBicicleta();
+//     reservarPatinete();
+//     devolverBicicleta();
+//     devolverPatinete();
+
+//     listarClientes();
+//     listarBicicletas();
+//     listarPatinetes();
+//     consultarAluguel();
+// }
+
 
 void telaInicial(void){
-    int op_pric;
     system("clear||cls");
     printf("\n");
     printf("*-------------------------------------------------------------------------------*\n");
@@ -90,45 +128,6 @@ void telaInicial(void){
     printf("|                            0. Sair                                            |\n");
     printf("|                                                                               |\n");
     printf("| Digite o número da opção desejada:                                            |\n");
-    scanf("%d", &op_pric);
-    getchar();
-    switch (op_pric){
-        case 1:
-            clientes();
-            break;
-
-        case 2:
-            bicicletas();
-            break;
-
-        case 3:
-            patinetes();
-            break;
-
-        case 4:
-            locacao();
-            break;
-
-        case 5:
-            relatorios();
-            break;
-
-        case 6:
-            informacoes();
-            break;
-
-        case 0:
-            printf("Saindo do sistema...\n");
-            exit(0);
-
-        default:
-            printf("Opção inválida! Tente novamente.\n");
-            telaInicial();
-        break;
-    }
-    
-    printf("*-------------------------------------------------------------------------------*\n");
-    printf("Tecle <ENTER> para continuar...");
 }
 
 void clientes(void){
@@ -487,6 +486,7 @@ void consultarAluguel(void){
 }
 
 void informacoes(void){
+    system("clear||cls");
     printf("\n*-------------------------------------------------------------------------------*\n");
     printf("|                               Informações                                     |\n");
     printf("*-------------------------------------------------------------------------------*\n");
@@ -500,5 +500,6 @@ void informacoes(void){
     printf("|                        Ariadny Dantas | @ariadnyD                             |\n");
     printf("|                        João Roberto   | @joaorobertoaquino                    |\n");
     printf("*-------------------------------------------------------------------------------*\n");
+    getchar();
     printf("Tecle <ENTER> para continuar...");
 }
