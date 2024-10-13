@@ -46,7 +46,6 @@ void consultarAluguel(void);
 int main(){
     telaInicial();
 
-    clientes();
     cadastrarCliente();
     pesquisarCliente();
     atualizarCliente();
@@ -80,7 +79,9 @@ int main(){
 }
 
 void telaInicial(void){
-    char op_pric;
+    int op_pric;
+    system("clear||cls");
+    printf("\n");
     printf("*-------------------------------------------------------------------------------*\n");
     printf("|                         Seja Bem Vindo ao SIG - Bike                          |\n");
     printf("*-------------------------------------------------------------------------------*\n");
@@ -93,7 +94,12 @@ void telaInicial(void){
     printf("|                            0. Sair                                            |\n");
     printf("|                                                                               |\n");
     printf("| Digite o número da opção desejada:                                            |\n");
-    scanf("%c", &op_pric);
+    scanf("%d", &op_pric);
+    switch (op_pric){
+        case 1:
+        clientes();
+    }
+    
     getchar();
     printf("*-------------------------------------------------------------------------------*\n");
     printf("Tecle <ENTER> para continuar...");
