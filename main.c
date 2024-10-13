@@ -51,7 +51,6 @@ int main(){
     atualizarCliente();
     deletarCliente();
 
-    bicicletas();
     cadastrarBicicleta();
     pesquisarBicicleta();
     atualizarBicicleta();
@@ -97,7 +96,13 @@ void telaInicial(void){
     scanf("%d", &op_pric);
     switch (op_pric){
         case 1:
-        clientes();
+            clientes();
+            break;
+
+        case 2:
+            bicicletas();
+            break;
+
     }
     
     getchar();
