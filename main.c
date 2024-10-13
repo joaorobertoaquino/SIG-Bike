@@ -66,12 +66,11 @@ int main(){
     devolverBicicleta();
     devolverPatinete();
 
-    relatorios();
     listarClientes();
     listarBicicletas();
     listarPatinetes();
     consultarAluguel();
-    informacoes();
+
     return 0;
 }
 
@@ -109,6 +108,13 @@ void telaInicial(void){
             locacao();
             break;
 
+        case 5:
+            relatorios();
+            break;
+
+        case 6:
+            informacoes();
+            break;
     }
     
     getchar();
