@@ -91,6 +91,7 @@ void telaInicial(void){
     printf("|                                                                               |\n");
     printf("| Digite o número da opção desejada:                                            |\n");
     scanf("%d", &op_pric);
+    getchar();
     switch (op_pric){
         case 1:
             clientes();
@@ -115,12 +116,19 @@ void telaInicial(void){
         case 6:
             informacoes();
             break;
+
+        case 0:
+            printf("Saindo do sistema...\n");
+            exit(0);
+
+        default:
+            printf("Opção inválida! Tente novamente.\n");
+            telaInicial();
+        break;
     }
     
-    getchar();
     printf("*-------------------------------------------------------------------------------*\n");
     printf("Tecle <ENTER> para continuar...");
-    getchar();
 }
 
 void clientes(void){
