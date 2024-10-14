@@ -549,7 +549,7 @@ void relatorios(void){
         printf("|                             4. Bicicletas mais Alugadas                       |\n");
         printf("|                             5. Patinetes mais Alugados                        |\n");
         printf("|                             0. Voltar                                         |\n");
-        printf("*-------------------------------------------------------------------------------*\n");
+        printf("|                                                                               |\n");
         printf("| Digite a opção desejada:                                                      |\n");
         scanf("%d", &op_relatorio);
         getchar();
@@ -614,7 +614,7 @@ void listarPatinetes(void){
 void bicicleta_mais_alugadas(void){
     system("clear||cls");
     printf("\n*------------------------------------------------------------------------------------------------------------*\n");
-    printf("*                                   Listar Bicicletas Mais Alugadas                                          *\n");
+    printf("*                                   Listar Bicicletas mais Alugadas                                          *\n");
     printf("*------------------------------------------------------------------------------------------------------------*\n");
     printf("|     ID     |         Modelo          |         Marca          | Ano de Fabricação |   Tamanho do Quadro    |\n");
     printf("*------------------------------------------------------------------------------------------------------------*\n");
