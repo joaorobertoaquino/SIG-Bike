@@ -190,6 +190,7 @@ void cadastrarCliente(void){
 
 
 void pesquisarCliente(void){
+    system("clear||cls");
     printf("\n*-------------------------------------------------------------------------------*\n");
     printf("*                          Pesquisar Dados do Cliente                           *\n");
     printf("*-------------------------------------------------------------------------------*\n");
@@ -203,9 +204,11 @@ void pesquisarCliente(void){
     printf("|                                                                               |\n");
     printf("*-------------------------------------------------------------------------------*\n");
     printf("Tecle <ENTER> para continuar...");
+    getchar();
 }
 
 void atualizarCliente(void){
+    system("clear||cls");
     printf("\n*-------------------------------------------------------------------------------*\n");
     printf("*                         Atualizar Dados do Cliente                            *\n");
     printf("*-------------------------------------------------------------------------------*\n");
@@ -220,9 +223,11 @@ void atualizarCliente(void){
     printf("|                                                                               |\n");
     printf("*-------------------------------------------------------------------------------*\n");
     printf("Tecle <ENTER> para continuar...");
+    getchar();
 }
 
 void deletarCliente(void){
+    system("clear||cls");
     printf("\n*-------------------------------------------------------------------------------*\n");
     printf("*                               Excluir Cliente                                 *\n");
     printf("*-------------------------------------------------------------------------------*\n");
@@ -230,6 +235,7 @@ void deletarCliente(void){
     printf("|                                                                               |\n");
     printf("*-------------------------------------------------------------------------------*\n");
     printf("Tecle <ENTER> para continuar...");
+    getchar();
 }
 
 void bicicletas(void){
