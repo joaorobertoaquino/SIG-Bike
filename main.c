@@ -131,25 +131,47 @@ void telaInicial(void){
 }
 
 void clientes(void){
-    char op_cliente;
-    printf("\n*-------------------------------------------------------------------------------*\n");
-    printf("*                               Módulo Clientes                                 *\n");
-    printf("*-------------------------------------------------------------------------------*\n");
-    printf("|                             1. Cadastrar                                      |\n");
-    printf("|                             2. Pesquisar                                      |\n");
-    printf("|                             3. Atualizar                                      |\n");
-    printf("|                             4. Deletar                                        |\n");
-    printf("|                             0. Voltar                                         |\n");
-    printf("|                                                                               |\n");
-    printf("| Digite a opção desejada:                                                      |\n");
-    scanf("%c", &op_cliente);
-    getchar();
-    printf("*-------------------------------------------------------------------------------*\n");
-    printf("Tecle <ENTER> para continuar...");
-    getchar();
+    int op_cliente;
+    do{
+        system("clear||cls");
+        printf("\n");
+        printf("\n*-------------------------------------------------------------------------------*\n");
+        printf("*                               Módulo Clientes                                   *\n");
+        printf("*---------------------------------------------------------------------------------*\n");
+        printf("|                                  1. Cadastrar                                   |\n");
+        printf("|                                  2. Pesquisar                                   |\n");
+        printf("|                                  3. Atualizar                                   |\n");
+        printf("|                                  4. Deletar                                     |\n");
+        printf("|                                  0. Voltar                                      |\n");
+        printf("|                                                                                 |\n");
+        printf("| Digite a opção desejada:                                                        |\n");
+        scanf("%d", &op_cliente);
+        getchar();
+        switch (op_cliente) {
+            case 1:
+                cadastrarCliente();
+                break;
+            case 2:
+                pesquisarCliente();
+                break;
+            case 3:
+                atualizarCliente();
+                break;
+            case 4:
+                deletarCliente();
+                break;
+            case 0:
+                break;
+            default:
+                printf("Valor invalido");
+            break;
+        }
+    }while(op_cliente != 0);
 }
+    
 
 void cadastrarCliente(void){
+    system("clear||cls");
     printf("\n*-------------------------------------------------------------------------------*\n");
     printf("*                              Cadastrar Cliente                                *\n");
     printf("*-------------------------------------------------------------------------------*\n");
@@ -163,6 +185,7 @@ void cadastrarCliente(void){
     printf("|                        Cliente cadastrado com sucesso!                        |\n");
     printf("*-------------------------------------------------------------------------------*\n");
     printf("Tecle <ENTER> para continuar...");
+    getchar();
 }
 
 
