@@ -33,12 +33,13 @@ void reservarBicicleta(void);
 void reservarPatinete(void);
 void devolverBicicleta(void);
 void devolverPatinete(void);
+void consultarAluguel(void);
 
 //Relatórios
 void listarClientes(void);
 void listarBicicletas(void);
 void listarPatinetes(void);
-void consultarAluguel(void);
+void bicicleta_mais_alugadas(void);
 
 //Informações
 
@@ -544,7 +545,7 @@ void relatorios(void){
         printf("|                             1. Lista Geral de Clientes                        |\n");
         printf("|                             2. Lista Geral de Bicicletas                      |\n");
         printf("|                             3. Lista Geral de Patinetes                       |\n");
-        // printf("|                             4. Veículos mais Alugados                         |\n");
+        printf("|                             4. Bicicletas mais Alugadas                       |\n");
         // printf("|                             5. Histórico de Alugueis                          |\n");
         printf("|                             0. Voltar                                         |\n");
         printf("*-------------------------------------------------------------------------------*\n");
@@ -560,6 +561,9 @@ void relatorios(void){
                 break;
             case 3:
                 listarPatinetes();
+                break;
+            case 4:
+                bicicleta_mais_alugadas();
                 break;
             case 0:
                 break;
@@ -598,6 +602,17 @@ void listarPatinetes(void){
     printf("*                                         Listar Patinetes                                                   *\n");
     printf("*------------------------------------------------------------------------------------------------------------*\n");
     printf("|     ID     |         Modelo          |         Marca          | Ano de Fabricação |  Bateria (capacidade)  |\n");
+    printf("*------------------------------------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
+    getchar();
+}
+
+void bicicleta_mais_alugadas(void){
+    system("clear||cls");
+    printf("\n*------------------------------------------------------------------------------------------------------------*\n");
+    printf("*                                   Listar Bicicletas Mais Alugadas                                          *\n");
+    printf("*------------------------------------------------------------------------------------------------------------*\n");
+    printf("|     ID     |         Modelo          |         Marca          | Ano de Fabricação |   Tamanho do Quadro    |\n");
     printf("*------------------------------------------------------------------------------------------------------------*\n");
     printf("Tecle <ENTER> para continuar...");
     getchar();
