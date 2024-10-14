@@ -345,25 +345,46 @@ void deletarBicicleta(void){
 }
 
 void patinetes(void){
-    char op_patinete;
-    printf("\n*-------------------------------------------------------------------------------*\n");
-    printf("*                               Módulo Patinetes                                *\n");
-    printf("*--------------------------------------------------------------------------------*\n");
-    printf("|                             1. Cadastrar                                      |\n");
-    printf("|                             2. Pesquisar                                      |\n");
-    printf("|                             3. Atualizar                                      |\n");
-    printf("|                             4. Deletar                                        |\n");
-    printf("|                             0. Voltar                                         |\n");
-    printf("|                                                                               |\n");
-    printf("| Digite a opção desejada:                                                      |\n");
-    scanf("%c", &op_patinete);
-    getchar();
-    printf("*-------------------------------------------------------------------------------*\n");
-    printf("Tecle <ENTER> para continuar...");
-    getchar();
+    int op_patinete;
+    do{
+        system("clear||cls");
+        printf("\n*-------------------------------------------------------------------------------*\n");
+        printf("*                               Módulo Patinetes                                *\n");
+        printf("*--------------------------------------------------------------------------------*\n");
+        printf("|                             1. Cadastrar                                      |\n");
+        printf("|                             2. Pesquisar                                      |\n");
+        printf("|                             3. Atualizar                                      |\n");
+        printf("|                             4. Deletar                                        |\n");
+        printf("|                             0. Voltar                                         |\n");
+        printf("|                                                                               |\n");
+        printf("*-------------------------------------------------------------------------------*\n");
+        printf(" Digite a opção desejada: ");
+        scanf("%d", &op_patinete);
+        getchar();
+        switch (op_patinete) {
+            case 1:
+                cadastrarPatinete();
+                break;
+            case 2:
+                pesquisarPatinete();
+                break;
+            case 3:
+                atualizarPatinete();
+                break;
+            case 4:
+                deletarPatinete();
+                break;
+            case 0:
+                break;
+            default:
+                printf("Valor invalido");
+            break;
+        }
+    }while(op_patinete != 0);
 } 
 
 void cadastrarPatinete(void){
+    system("clear||cls");
     printf("\n*-------------------------------------------------------------------------------*\n");
     printf("*                               Cadastrar Patinete                              *\n");
     printf("*-------------------------------------------------------------------------------*\n");
@@ -378,10 +399,12 @@ void cadastrarPatinete(void){
     printf("|                      Patinete cadastrado com sucesso!                         |\n");
     printf("*-------------------------------------------------------------------------------*\n");
     printf("Tecle <ENTER> para continuar...");
+    getchar();
 }
 
 
 void pesquisarPatinete(void){
+    system("clear||cls");
     printf("\n*-------------------------------------------------------------------------------*\n");
     printf("*                               Pesquisar Patinete                              *\n");
     printf("*-------------------------------------------------------------------------------*\n");
@@ -395,9 +418,11 @@ void pesquisarPatinete(void){
     printf("|                                                                               |\n");
     printf("*-------------------------------------------------------------------------------*\n");
     printf("Tecle <ENTER> para continuar...");
+    getchar();
 }
 
 void atualizarPatinete(void){
+    system("clear||cls");
     printf("\n*-------------------------------------------------------------------------------*\n");
     printf("*                          Atualizar Dados do Patinete                          *\n");
     printf("*-------------------------------------------------------------------------------*\n");
@@ -413,9 +438,11 @@ void atualizarPatinete(void){
     printf("|                                                                               |\n");
     printf("*-------------------------------------------------------------------------------*\n");
     printf("Tecle <ENTER> para continuar...");
+    getchar();
 }
 
 void deletarPatinete(void){
+    system("clear||cls");
     printf("\n*-------------------------------------------------------------------------------*\n");
     printf("*                               Deletar Patinete                                *\n");
     printf("*-------------------------------------------------------------------------------*\n");
@@ -423,6 +450,7 @@ void deletarPatinete(void){
     printf("|                                                                               |\n");
     printf("*-------------------------------------------------------------------------------*\n");
     printf("Tecle <ENTER> para continuar...");
+    getchar();
 }
 
 void locacao(void){
