@@ -127,7 +127,8 @@ void telaInicial(void){
     printf("|                            6. Informações                                     |\n");
     printf("|                            0. Sair                                            |\n");
     printf("|                                                                               |\n");
-    printf("| Digite o número da opção desejada:                                            |\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf(" Digite o número da opção desejada: ");
 }
 
 void clientes(void){
@@ -144,7 +145,8 @@ void clientes(void){
         printf("|                                  4. Deletar                                     |\n");
         printf("|                                  0. Voltar                                      |\n");
         printf("|                                                                                 |\n");
-        printf("| Digite a opção desejada:                                                        |\n");
+        printf("*---------------------------------------------------------------------------------*\n");
+        printf(" Digite a opção desejada: ");
         scanf("%d", &op_cliente);
         getchar();
         switch (op_cliente) {
@@ -250,8 +252,8 @@ void bicicletas(void){
         printf("|                             4. Deletar                                        |\n");
         printf("|                             0. Voltar                                         |\n");
         printf("|                                                                               |\n");
-        printf("| Digite a opção desejada:                                                      |\n");
         printf("*-------------------------------------------------------------------------------*\n");
+        printf(" Digite a opção desejada: ");
         scanf("%d", &op_bicicleta);
         getchar();
         switch (op_bicicleta) {
