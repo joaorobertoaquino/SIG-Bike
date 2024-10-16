@@ -96,3 +96,15 @@ void atualizarCliente(void){
     printf("Tecle <ENTER> para continuar...");
     getchar();
 }
+
+void deletarCliente(void){
+    system("clear||cls");
+    printf("\n*-------------------------------------------------------------------------------*\n");
+    printf("*                               Excluir Cliente                                 *\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("| Digite o CPF do Cliente:                                                      |\n");
+    printf("|                                                                               |\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
+    getchar();
+}

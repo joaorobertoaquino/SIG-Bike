@@ -104,18 +104,6 @@ void telaInicial(void){
     printf(" Digite o número da opção desejada: ");
 }
 
-void deletarCliente(void){
-    system("clear||cls");
-    printf("\n*-------------------------------------------------------------------------------*\n");
-    printf("*                               Excluir Cliente                                 *\n");
-    printf("*-------------------------------------------------------------------------------*\n");
-    printf("| Digite o CPF do Cliente:                                                      |\n");
-    printf("|                                                                               |\n");
-    printf("*-------------------------------------------------------------------------------*\n");
-    printf("Tecle <ENTER> para continuar...");
-    getchar();
-}
-
 void bicicletas(void){
     int op_bicicleta;
     do{
