@@ -10,7 +10,6 @@ void relatorios(void);
 void informacoes(void);
 
 //Módulo Clientes
-void pesquisarCliente(void);
 void atualizarCliente(void);
 void deletarCliente(void);
 

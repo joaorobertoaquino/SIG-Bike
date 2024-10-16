@@ -3,5 +3,6 @@
 
 void clientes(void);
 void cadastrarCliente(void);
+void pesquisarCliente(void);
 
 #endif 
