@@ -59,3 +59,21 @@ void cadastrarCliente(void){
     printf("Tecle <ENTER> para continuar...");
     getchar();
 }
+
+void pesquisarCliente(void){
+    system("clear||cls");
+    printf("\n*-------------------------------------------------------------------------------*\n");
+    printf("*                          Pesquisar Dados do Cliente                           *\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("| Digite o CPF do Cliente:                                                      |\n");
+    printf("|                                                                               |\n");
+    printf("| Nome:                                                                         |\n");
+    printf("| CPF:                                                                          |\n");
+    printf("| Email:                                                                        |\n");
+    printf("| Fone:                                                                         |\n");
+    printf("| Data de Nascimento:                                                           |\n");
+    printf("|                                                                               |\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
+    getchar();
+}
