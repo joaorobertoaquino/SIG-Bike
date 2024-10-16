@@ -3,7 +3,6 @@
 
 //Telas Principais
 void telaInicial(void);
-void clientes(void);
 void bicicletas(void);
 void patinetes(void);
 void locacao(void);
@@ -106,24 +105,6 @@ void telaInicial(void){
     printf("|                                                                               |\n");
     printf("*-------------------------------------------------------------------------------*\n");
     printf(" Digite o número da opção desejada: ");
-}
-
-void cadastrarCliente(void){
-    system("clear||cls");
-    printf("\n*-------------------------------------------------------------------------------*\n");
-    printf("*                              Cadastrar Cliente                                *\n");
-    printf("*-------------------------------------------------------------------------------*\n");
-    printf("|                                                                               |\n");
-    printf("| Nome:                                                                         |\n");
-    printf("| CPF:                                                                          |\n");
-    printf("| Email:                                                                        |\n");
-    printf("| Fone:                                                                         |\n");
-    printf("| Data de Nascimento:                                                           |\n");
-    printf("|                                                                               |\n");
-    printf("|                        Cliente cadastrado com sucesso!                        |\n");
-    printf("*-------------------------------------------------------------------------------*\n");
-    printf("Tecle <ENTER> para continuar...");
-    getchar();
 }
 
 
