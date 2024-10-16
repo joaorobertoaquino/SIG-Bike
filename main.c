@@ -10,7 +10,6 @@ void relatorios(void);
 void informacoes(void);
 
 //Módulo Clientes
-void deletarCliente(void);
 
 //Módulo Bicicletas
 void cadastrarBicicleta(void);

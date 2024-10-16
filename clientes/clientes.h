@@ -5,5 +5,6 @@ void clientes(void);
 void cadastrarCliente(void);
 void pesquisarCliente(void);
 void atualizarCliente(void);
+void deletarCliente(void);
 
 #endif 
