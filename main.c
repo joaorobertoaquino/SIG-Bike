@@ -203,16 +203,6 @@ void consultarAluguel(void){
 
 
 
-void bicicleta_mais_alugadas(void){
-    system("clear||cls");
-    printf("\n*------------------------------------------------------------------------------------------------------------*\n");
-    printf("*                                   Listar Bicicletas mais Alugadas                                          *\n");
-    printf("*------------------------------------------------------------------------------------------------------------*\n");
-    printf("|     ID     |         Modelo          |         Marca          | Ano de Fabricação |   Tamanho do Quadro    |\n");
-    printf("*------------------------------------------------------------------------------------------------------------*\n");
-    printf("Tecle <ENTER> para continuar...");
-    getchar();
-}
 
 void patinetes_mais_alugados(void){
     system("clear||cls");

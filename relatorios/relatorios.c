@@ -76,3 +76,14 @@ void listarPatinetes(void){
     printf("Tecle <ENTER> para continuar...");
     getchar();
 }
+
+void bicicleta_mais_alugadas(void){
+    system("clear||cls");
+    printf("\n*------------------------------------------------------------------------------------------------------------*\n");
+    printf("*                                   Listar Bicicletas mais Alugadas                                          *\n");
+    printf("*------------------------------------------------------------------------------------------------------------*\n");
+    printf("|     ID     |         Modelo          |         Marca          | Ano de Fabricação |   Tamanho do Quadro    |\n");
+    printf("*------------------------------------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
+    getchar();
+}
