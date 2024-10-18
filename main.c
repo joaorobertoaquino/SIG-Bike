@@ -14,7 +14,6 @@ void informacoes(void);
 //Módulo Bicicletas
 
 //Módulo Patinetes
-void cadastrarPatinete(void);
 void pesquisarPatinete(void);
 void atualizarPatinete(void);
 void deletarPatinete(void);
