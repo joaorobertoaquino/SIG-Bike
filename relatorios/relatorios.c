@@ -65,3 +65,14 @@ void listarBicicletas(void){
     printf("Tecle <ENTER> para continuar...");
     getchar();
 }
+
+void listarPatinetes(void){
+    system("clear||cls");
+    printf("\n*------------------------------------------------------------------------------------------------------------*\n");
+    printf("*                                         Listar Patinetes                                                   *\n");
+    printf("*------------------------------------------------------------------------------------------------------------*\n");
+    printf("|     ID     |         Modelo          |         Marca          | Ano de Fabricação |  Bateria (capacidade)  |\n");
+    printf("*------------------------------------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
+    getchar();
+}
