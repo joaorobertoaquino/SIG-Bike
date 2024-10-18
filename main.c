@@ -35,7 +35,7 @@ void bicicleta_mais_alugadas(void);
 void patinetes_mais_alugados(void);
 
 //Informações
-
+//Makefile adicionado
 
 int main(){
     int op_pric;
