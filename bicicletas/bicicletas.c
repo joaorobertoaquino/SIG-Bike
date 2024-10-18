@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "bicicletas.h"
 
 void bicicletas(void){
     int op_bicicleta;
