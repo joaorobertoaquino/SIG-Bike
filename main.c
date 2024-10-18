@@ -201,16 +201,9 @@ void consultarAluguel(void){
 }
 
 
-void listarClientes(void){
-    system("clear||cls");
-    printf("\n*------------------------------------------------------------------------------------------------------------*\n");
-    printf("*                                          Listar Clientes                                                   *\n");
-    printf("*------------------------------------------------------------------------------------------------------------*\n");
-    printf("|       Nome        |       CPF       |           Email             |      Fone      |   Data de Nacimento   |\n");
-    printf("*------------------------------------------------------------------------------------------------------------*\n");
-    printf("Tecle <ENTER> para continuar...");
-    getchar();
-}
+
+
+
 
 void listarBicicletas(void){
     system("clear||cls");
