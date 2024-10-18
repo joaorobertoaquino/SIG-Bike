@@ -97,3 +97,15 @@ void atualizarPatinete(void){
     printf("Tecle <ENTER> para continuar...");
     getchar();
 }
+
+void deletarPatinete(void){
+    system("clear||cls");
+    printf("\n*-------------------------------------------------------------------------------*\n");
+    printf("*                               Deletar Patinete                                *\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("| Informe o ID do patinete a excluir:                                           |\n");
+    printf("|                                                                               |\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
+    getchar();
+}
