@@ -13,7 +13,6 @@ void informacoes(void);
 //Módulo Clientes
 
 //Módulo Bicicletas
-void pesquisarBicicleta(void);
 void atualizarBicicleta(void);
 void deletarBicicleta(void);
 

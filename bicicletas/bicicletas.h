@@ -3,5 +3,6 @@
 
 void bicicletas(void);
 void cadastrarBicicleta(void);
+void pesquisarBicicleta(void);
 
 #endif 
