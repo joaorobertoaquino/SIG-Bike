@@ -196,24 +196,6 @@ void consultarAluguel(void){
     getchar();
 }
 
-
-
-
-
-
-
-
-void patinetes_mais_alugados(void){
-    system("clear||cls");
-    printf("\n*------------------------------------------------------------------------------------------------------------*\n");
-    printf("*                                      Listar Patinetes mais Alugados                                        *\n");
-    printf("*------------------------------------------------------------------------------------------------------------*\n");
-    printf("|     ID     |         Modelo          |         Marca          | Ano de Fabricação |  Bateria (capacidade)  |\n");
-    printf("*------------------------------------------------------------------------------------------------------------*\n");
-    printf("Tecle <ENTER> para continuar...");
-    getchar();
-}
-
 void informacoes(void){
     system("clear||cls");
     printf("\n*-------------------------------------------------------------------------------*\n");
