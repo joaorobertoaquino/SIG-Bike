@@ -24,7 +24,6 @@ void devolverPatinete(void);
 void consultarAluguel(void);
 
 //Relatórios
-void bicicleta_mais_alugadas(void);
 void patinetes_mais_alugados(void);
 
 //Informações
