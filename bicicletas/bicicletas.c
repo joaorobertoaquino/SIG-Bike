@@ -58,3 +58,21 @@ void cadastrarBicicleta(void){
     printf("Tecle <ENTER> para continuar...");
     getchar();
 }
+
+void pesquisarBicicleta(void){
+    system("clear||cls");
+    printf("\n*-------------------------------------------------------------------------------*\n");
+    printf("*                               Pesquisar Bicicleta                             *\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("| Informe o ID da Bicicleta:                                                    |\n");
+    printf("|                                                                               |\n");
+    printf("| Modelo:                                                                       |\n");
+    printf("| Cor:                                                                          |\n");
+    printf("| Marca:                                                                        |\n");
+    printf("| Ano de Fabricação:                                                            |\n");
+    printf("| Tamanho do Quadro:                                                            |\n");
+    printf("|                                                                               |\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
+    getchar();
+}
