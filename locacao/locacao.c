@@ -55,3 +55,15 @@ void reservarBicicleta(void){
     printf("Tecle <ENTER> para continuar...");
     getchar();
 }
+
+void reservarPatinete(void){
+    system("clear||cls");
+    printf("\n*-------------------------------------------------------------------------------*\n");
+    printf("*                              Reservar Patinete                                *\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("| Informe o ID do Patinete:                                                     |\n");
+    printf("|                                                                               |\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
+    getchar();
+}
