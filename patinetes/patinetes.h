@@ -3,5 +3,6 @@
 
 void patinetes(void);
 void cadastrarPatinete(void);
+void pesquisarPatinete(void);
 
 #endif
