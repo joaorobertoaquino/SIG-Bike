@@ -101,18 +101,6 @@ void telaInicial(void){
     printf(" Digite o número da opção desejada: ");
 }
 
-void deletarBicicleta(void){
-    system("clear||cls");
-    printf("\n*-------------------------------------------------------------------------------*\n");
-    printf("*                               Excluir Bicicleta                               *\n");
-    printf("*-------------------------------------------------------------------------------*\n");
-    printf("| Informe o ID da bicicleta à excluir:                                          |\n");
-    printf("|                                                                               |\n");
-    printf("*-------------------------------------------------------------------------------*\n");
-    printf("Tecle <ENTER> para continuar...");
-    getchar();
-}
-
 void patinetes(void){
     int op_patinete;
     do{
