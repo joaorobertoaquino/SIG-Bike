@@ -5,7 +5,6 @@
 
 //Telas Principais
 void telaInicial(void);
-void patinetes(void);
 void locacao(void);
 void relatorios(void);
 void informacoes(void);
