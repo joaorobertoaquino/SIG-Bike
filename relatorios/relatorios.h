@@ -4,5 +4,6 @@
 void relatorios(void);
 void listarClientes(void);
 void listarBicicletas(void);
+void listarPatinetes(void);
 
 #endif
