@@ -14,7 +14,6 @@ void informacoes(void);
 //Módulo Bicicletas
 
 //Módulo Patinetes
-void deletarPatinete(void);
 
 //Módulo Locação
 void reservarBicicleta(void);
