@@ -39,3 +39,22 @@ void bicicletas(void){
         }
     }while(op_bicicleta != 0);
 }
+
+void cadastrarBicicleta(void){
+    system("clear||cls");
+    printf("\n*-------------------------------------------------------------------------------*\n");
+    printf("*                               Cadastrar Bicicleta                             *\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("| ID:                                                                           |\n");
+    printf("|                                                                               |\n");
+    printf("| Modelo:                                                                       |\n");
+    printf("| Cor:                                                                          |\n");
+    printf("| Marca:                                                                        |\n");
+    printf("| Ano de Fabricação:                                                            |\n");
+    printf("| Tamanho do Quadro:                                                            |\n");
+    printf("|                                                                               |\n");
+    printf("|                      Bicicleta cadastrada com sucesso!                        |\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
+    getchar();
+}
