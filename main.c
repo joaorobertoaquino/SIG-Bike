@@ -91,20 +91,6 @@ void telaInicial(void){
     printf(" Digite o número da opção desejada: ");
 }
 
-void consultarAluguel(void){
-    system("clear||cls");
-    printf("\n*-------------------------------------------------------------------------------*\n");
-    printf("*                              Consultar Aluguel                                *\n");
-    printf("*-------------------------------------------------------------------------------*\n");
-    printf("| Você deseja consultar por ""Bicicleta"" ou ""Patinete"" ?:                    |\n");
-    printf("|                                                                               |\n");
-    printf("| Informe o ID:                                                                 |\n");
-    printf("|                                                                               |\n");
-    printf("*-------------------------------------------------------------------------------*\n");
-    printf("Tecle <ENTER> para continuar...");
-    getchar();
-}
-
 void informacoes(void){
     system("clear||cls");
     printf("\n*-------------------------------------------------------------------------------*\n");
