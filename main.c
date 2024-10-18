@@ -3,6 +3,7 @@
 #include "clientes/clientes.h"
 #include "bicicletas/bicicletas.h"
 #include "patinetes/patinetes.h"
+#include "relatorios/relatorios.h"
 
 //Telas Principais
 void telaInicial(void);
