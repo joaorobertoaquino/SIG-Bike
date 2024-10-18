@@ -24,7 +24,6 @@ void devolverPatinete(void);
 void consultarAluguel(void);
 
 //Relatórios
-void patinetes_mais_alugados(void);
 
 //Informações
 //Makefile adicionado
