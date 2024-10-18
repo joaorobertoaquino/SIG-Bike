@@ -54,3 +54,14 @@ void listarClientes(void){
     printf("Tecle <ENTER> para continuar...");
     getchar();
 }
+
+void listarBicicletas(void){
+    system("clear||cls");
+    printf("\n*------------------------------------------------------------------------------------------------------------*\n");
+    printf("*                                         Listar Bicicletas                                                  *\n");
+    printf("*------------------------------------------------------------------------------------------------------------*\n");
+    printf("|     ID     |         Modelo          |         Marca          | Ano de Fabricação |   Tamanho do Quadro    |\n");
+    printf("*------------------------------------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
+    getchar();
+}
