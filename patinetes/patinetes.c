@@ -77,3 +77,23 @@ void pesquisarPatinete(void){
     printf("Tecle <ENTER> para continuar...");
     getchar();
 }
+
+void atualizarPatinete(void){
+    system("clear||cls");
+    printf("\n*-------------------------------------------------------------------------------*\n");
+    printf("*                          Atualizar Dados do Patinete                          *\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("| Informe o ID do Patinete:                                                     |\n");
+    printf("|                                                                               |\n");
+    printf("|                           ↪Digite os Novos Dados↩                             |\n");
+    printf("| Modelo:                                                                       |\n");
+    printf("| Cor:                                                                          |\n");
+    printf("| Marca:                                                                        |\n");
+    printf("| Ano de Fabricação:                                                            |\n");
+    printf("| Bateria (capacidade):                                                         |\n");
+    printf("|                                                                               |\n");
+    printf("|                                                                               |\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
+    getchar();
+}
