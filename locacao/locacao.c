@@ -43,3 +43,15 @@ void locacao(void){
         }
     }while(op_locacao != 0);
 }
+
+void reservarBicicleta(void){
+    system("clear||cls");
+    printf("\n*-------------------------------------------------------------------------------*\n");
+    printf("*                              Reservar Bicicleta                               *\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("| Informe o ID da Bicicleta:                                                    |\n");
+    printf("|                                                                               |\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
+    getchar();
+}
