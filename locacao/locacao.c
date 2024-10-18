@@ -79,3 +79,15 @@ void devolverBicicleta(void){
     printf("Tecle <ENTER> para continuar...");
     getchar();
 }
+
+void devolverPatinete(void){
+    system("clear||cls");
+    printf("\n*-------------------------------------------------------------------------------*\n");
+    printf("*                              Devolver Patinete                                *\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("| Informe o ID do Patinete:                                                     |\n");
+    printf("|                                                                               |\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
+    getchar();
+}

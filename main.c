@@ -91,18 +91,6 @@ void telaInicial(void){
     printf(" Digite o número da opção desejada: ");
 }
 
-void devolverPatinete(void){
-    system("clear||cls");
-    printf("\n*-------------------------------------------------------------------------------*\n");
-    printf("*                              Devolver Patinete                                *\n");
-    printf("*-------------------------------------------------------------------------------*\n");
-    printf("| Informe o ID do Patinete:                                                     |\n");
-    printf("|                                                                               |\n");
-    printf("*-------------------------------------------------------------------------------*\n");
-    printf("Tecle <ENTER> para continuar...");
-    getchar();
-}
-
 void consultarAluguel(void){
     system("clear||cls");
     printf("\n*-------------------------------------------------------------------------------*\n");
