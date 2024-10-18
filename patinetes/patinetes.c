@@ -40,3 +40,22 @@ void patinetes(void){
         }
     }while(op_patinete != 0);
 } 
+
+void cadastrarPatinete(void){
+    system("clear||cls");
+    printf("\n*-------------------------------------------------------------------------------*\n");
+    printf("*                               Cadastrar Patinete                              *\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("| ID:                                                                           |\n");
+    printf("|                                                                               |\n");
+    printf("| Modelo:                                                                       |\n");
+    printf("| Cor:                                                                          |\n");
+    printf("| Marca:                                                                        |\n");
+    printf("| Ano de Fabricação:                                                            |\n");
+    printf("| Bateria (capacidade):                                                         |\n");
+    printf("|                                                                               |\n");
+    printf("|                      Patinete cadastrado com sucesso!                         |\n");
+    printf("*-------------------------------------------------------------------------------*\n");
+    printf("Tecle <ENTER> para continuar...");
+    getchar();
+}
