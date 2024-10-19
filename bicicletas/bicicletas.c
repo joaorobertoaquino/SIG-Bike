@@ -9,11 +9,11 @@ void bicicletas(void){
         printf("\n╔═══════════════════════════════════════════════════════════════════════════════╗\n");
         printf("║                               Módulo Bicicletas                               ║\n");
         printf("╚═══════════════════════════════════════════════════════════════════════════════╝\n");
-        printf("║                             1. Cadastrar                                      ║\n");
-        printf("║                             2. Pesquisar                                      ║\n");
-        printf("║                             3. Atualizar                                      ║\n");
-        printf("║                             4. Deletar                                        ║\n");
-        printf("║                             0. Voltar                                         ║\n");
+        printf("║                                1. Cadastrar                                   ║\n");
+        printf("║                                2. Pesquisar                                   ║\n");
+        printf("║                                3. Atualizar                                   ║\n");
+        printf("║                                4. Deletar                                     ║\n");
+        printf("║                                0. Voltar                                      ║\n");
         printf("║                                                                               ║\n");
         printf("╚═══════════════════════════════════════════════════════════════════════════════╝\n");
         printf(" Digite a opção desejada: ");
