@@ -59,36 +59,37 @@ int main(){
 void telaInicial(void){
     system("clear||cls");
     printf("\n");
-    printf("*-------------------------------------------------------------------------------*\n");
-    printf("|                         Seja Bem Vindo ao SIG - Bike                          |\n");
-    printf("*-------------------------------------------------------------------------------*\n");
-    printf("|                            1. Módulo Clientes                                 |\n");
-    printf("|                            2. Módulo Bicicletas                               |\n");
-    printf("|                            3. Módulo Patinetes                                |\n");
-    printf("|                            4. Módulo Locação                                  |\n");
-    printf("|                            5. Relatórios                                      |\n");
-    printf("|                            6. Informações                                     |\n");
-    printf("|                            0. Sair                                            |\n");
-    printf("|                                                                               |\n");
-    printf("*-------------------------------------------------------------------------------*\n");
+    printf("╔═══════════════════════════════════════════════════════════════════════════════╗\n");
+    printf("║                         Seja Bem Vindo ao SIG ═ Bike                          ║\n");
+    printf("╚═══════════════════════════════════════════════════════════════════════════════╝\n");
+    printf("║                            1. Módulo Clientes                                 ║\n");
+    printf("║                            2. Módulo Bicicletas                               ║\n");
+    printf("║                            3. Módulo Patinetes                                ║\n");
+    printf("║                            4. Módulo Locação                                  ║\n");
+    printf("║                            5. Relatórios                                      ║\n");
+    printf("║                            6. Informações                                     ║\n");
+    printf("║                            0. Sair                                            ║\n");
+    printf("║                                                                               ║\n");
+    printf("╚═══════════════════════════════════════════════════════════════════════════════╝\n");
     printf(" Digite o número da opção desejada: ");
 }
 
 void informacoes(void){
     system("clear||cls");
-    printf("\n*-------------------------------------------------------------------------------*\n");
-    printf("|                               Informações                                     |\n");
-    printf("*-------------------------------------------------------------------------------*\n");
-    printf("| O SIG-Bike é um sistema simples destinado à gestão de uma empresa de locação  |\n");
-    printf("| de bicicletas e patinetes. Este sistema apresenta módulos especializados que  |\n");
-    printf("| facilitam a administração de clientes, bicicletas e patinetes, tornando o     |\n");
-    printf("| processo de locação mais ágil e eficiente.                                    |\n");
-    printf("*-------------------------------------------------------------------------------*\n");
-    printf("|                             Desenvolvedores:                                  |\n");
-    printf("*-------------------------------------------------------------------------------*\n");
-    printf("|                        Ariadny Dantas | @ariadnyD                             |\n");
-    printf("|                        João Roberto   | @joaorobertoaquino                    |\n");
-    printf("*-------------------------------------------------------------------------------*\n");
+    printf("\n");
+    printf("╔═══════════════════════════════════════════════════════════════════════════════╗\n");
+    printf("║                               Informações                                     ║\n");
+    printf("╚═══════════════════════════════════════════════════════════════════════════════╝\n");
+    printf("║ O SIG═Bike é um sistema simples destinado à gestão de uma empresa de locação  ║\n");
+    printf("║ de bicicletas e patinetes. Este sistema apresenta módulos especializados que  ║\n");
+    printf("║ facilitam a administração de clientes, bicicletas e patinetes, tornando o     ║\n");
+    printf("║ processo de locação mais ágil e eficiente.                                    ║\n");
+    printf("╔═══════════════════════════════════════════════════════════════════════════════╗\n");
+    printf("║                             Desenvolvedores:                                  ║\n");
+    printf("╚═══════════════════════════════════════════════════════════════════════════════╝\n");
+    printf("║                        Ariadny Dantas ║ @ariadnyD                             ║\n");
+    printf("║                        João Roberto   ║ @joaorobertoaquino                    ║\n");
+    printf("╚═══════════════════════════════════════════════════════════════════════════════╝\n");
     getchar();
     printf("Tecle <ENTER> para continuar...");
 }
