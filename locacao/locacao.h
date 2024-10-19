@@ -3,5 +3,6 @@
 
 void reservarBicicleta(void);
 void reservarPatinete(void);
+void devolverBicicleta(void);
 
 #endif 

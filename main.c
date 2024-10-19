@@ -18,7 +18,6 @@ void informacoes(void);
 //Módulo Patinetes
 
 //Módulo Locação
-void devolverBicicleta(void);
 void devolverPatinete(void);
 void consultarAluguel(void);
 
