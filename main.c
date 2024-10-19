@@ -10,18 +10,6 @@
 void telaInicial(void);
 void informacoes(void);
 
-//Módulo Clientes
-
-//Módulo Bicicletas
-
-//Módulo Patinetes
-
-//Módulo Locação
-
-//Relatórios
-
-//Informações
-//Makefile adicionado
 
 int main(){
     int op_pric;
