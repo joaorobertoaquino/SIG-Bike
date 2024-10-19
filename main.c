@@ -18,7 +18,6 @@ void informacoes(void);
 //Módulo Patinetes
 
 //Módulo Locação
-void consultarAluguel(void);
 
 //Relatórios
 
