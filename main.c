@@ -8,7 +8,6 @@
 
 //Telas Principais
 void telaInicial(void);
-void locacao(void);
 void informacoes(void);
 
 //Módulo Clientes

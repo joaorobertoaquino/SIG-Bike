@@ -6,5 +6,6 @@ void reservarPatinete(void);
 void devolverBicicleta(void);
 void devolverPatinete(void);
 void consultarAluguel(void);
+void locacao(void);
 
 #endif 
