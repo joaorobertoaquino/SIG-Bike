@@ -3,6 +3,7 @@
 #include "clientes/clientes.h"
 #include "bicicletas/bicicletas.h"
 #include "patinetes/patinetes.h"
+#include "locacao/locacao.h"
 #include "relatorios/relatorios.h"
 
 //Telas Principais
