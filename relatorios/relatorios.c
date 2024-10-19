@@ -14,8 +14,8 @@ void relatorios(void){
         printf("║                           3. Lista Geral de Patinetes                         ║\n");
         printf("║                           4. Bicicletas mais Alugadas                         ║\n");
         printf("║                           5. Patinetes mais Alugados                          ║\n");
-        printf("║                           0. Voltar                                           ║\n");
         printf("║                                                                               ║\n");
+        printf("║                           0. Voltar                                           ║\n");
         printf("╚═══════════════════════════════════════════════════════════════════════════════╝\n");
         printf(" Digite a opção desejada: ");
         scanf("%d", &op_relatorio);

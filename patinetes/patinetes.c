@@ -13,8 +13,8 @@ void patinetes(void){
         printf("║                               2. Pesquisar                                    ║\n");
         printf("║                               3. Atualizar                                    ║\n");
         printf("║                               4. Deletar                                      ║\n");
-        printf("║                               0. Voltar                                       ║\n");
         printf("║                                                                               ║\n");
+        printf("║                               0. Voltar                                       ║\n");
         printf("╚═══════════════════════════════════════════════════════════════════════════════╝\n");
         printf(" Digite a opção desejada: ");
         scanf("%d", &op_patinete);
