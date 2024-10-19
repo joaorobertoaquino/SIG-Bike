@@ -9,12 +9,12 @@ void locacao(void){
         printf("\n*-------------------------------------------------------------------------------*\n");
         printf("*                               Módulo Locação                                  *\n");
         printf("*-------------------------------------------------------------------------------*\n");
-        printf("|                             1. Reservar Bicicleta                             |\n");
-        printf("|                             2. Reservar Patinete                              |\n");
-        printf("|                             3. Devolver Bicicleta                             |\n");
-        printf("|                             4. Devolver Patinete                              |\n");
-        printf("|                             5. Consultar Locação                              |\n");
-        printf("|                             0. Voltar                                         |\n");
+        printf("|                            1. Reservar Bicicleta                              |\n");
+        printf("|                            2. Reservar Patinete                               |\n");
+        printf("|                            3. Devolver Bicicleta                              |\n");
+        printf("|                            4. Devolver Patinete                               |\n");
+        printf("|                            5. Consultar Locação                               |\n");
+        printf("|                            0. Voltar                                          |\n");
         printf("|                                                                               |\n");
         printf("*-------------------------------------------------------------------------------*\n");
         printf(" Digite a opção desejada: ");
