@@ -6,16 +6,16 @@ void patinetes(void){
     int op_patinete;
     do{
         system("clear||cls");
-        printf("\n*-------------------------------------------------------------------------------*\n");
-        printf("*                               Módulo Patinetes                                *\n");
-        printf("*-------------------------------------------------------------------------------*\n");
-        printf("|                               1. Cadastrar                                    |\n");
-        printf("|                               2. Pesquisar                                    |\n");
-        printf("|                               3. Atualizar                                    |\n");
-        printf("|                               4. Deletar                                      |\n");
-        printf("|                               0. Voltar                                       |\n");
-        printf("|                                                                               |\n");
-        printf("*-------------------------------------------------------------------------------*\n");
+        printf("\n╔═══════════════════════════════════════════════════════════════════════════════╗\n");
+        printf("║                               Módulo Patinetes                                ║\n");
+        printf("╚═══════════════════════════════════════════════════════════════════════════════╝\n");
+        printf("║                               1. Cadastrar                                    ║\n");
+        printf("║                               2. Pesquisar                                    ║\n");
+        printf("║                               3. Atualizar                                    ║\n");
+        printf("║                               4. Deletar                                      ║\n");
+        printf("║                               0. Voltar                                       ║\n");
+        printf("║                                                                               ║\n");
+        printf("╚═══════════════════════════════════════════════════════════════════════════════╝\n");
         printf(" Digite a opção desejada: ");
         scanf("%d", &op_patinete);
         getchar();
@@ -43,69 +43,69 @@ void patinetes(void){
 
 void cadastrarPatinete(void){
     system("clear||cls");
-    printf("\n*-------------------------------------------------------------------------------*\n");
-    printf("*                               Cadastrar Patinete                              *\n");
-    printf("*-------------------------------------------------------------------------------*\n");
-    printf("| ID:                                                                           |\n");
-    printf("|                                                                               |\n");
-    printf("| Modelo:                                                                       |\n");
-    printf("| Cor:                                                                          |\n");
-    printf("| Marca:                                                                        |\n");
-    printf("| Ano de Fabricação:                                                            |\n");
-    printf("| Bateria (capacidade):                                                         |\n");
-    printf("|                                                                               |\n");
-    printf("|                      Patinete cadastrado com sucesso!                         |\n");
-    printf("*-------------------------------------------------------------------------------*\n");
+    printf("\n╔═══════════════════════════════════════════════════════════════════════════════╗\n");
+    printf("║                               Cadastrar Patinete                              ║\n");
+    printf("╚═══════════════════════════════════════════════════════════════════════════════╝\n");
+    printf("║ ID:                                                                           ║\n");
+    printf("║                                                                               ║\n");
+    printf("║ Modelo:                                                                       ║\n");
+    printf("║ Cor:                                                                          ║\n");
+    printf("║ Marca:                                                                        ║\n");
+    printf("║ Ano de Fabricação:                                                            ║\n");
+    printf("║ Bateria (capacidade):                                                         ║\n");
+    printf("║                                                                               ║\n");
+    printf("║                      Patinete cadastrado com sucesso!                         ║\n");
+    printf("╚═══════════════════════════════════════════════════════════════════════════════╝\n");
     printf("Tecle <ENTER> para continuar...");
     getchar();
 }
 
 void pesquisarPatinete(void){
     system("clear||cls");
-    printf("\n*-------------------------------------------------------------------------------*\n");
-    printf("*                               Pesquisar Patinete                              *\n");
-    printf("*-------------------------------------------------------------------------------*\n");
-    printf("| Informe o ID do Patinete:                                                     |\n");
-    printf("|                                                                               |\n");
-    printf("| Modelo:                                                                       |\n");
-    printf("| Cor:                                                                          |\n");
-    printf("| Marca:                                                                        |\n");
-    printf("| Ano de Fabricação:                                                            |\n");
-    printf("| Bateria (capacidade):                                                         |\n");
-    printf("|                                                                               |\n");
-    printf("*-------------------------------------------------------------------------------*\n");
+    printf("\n╔═══════════════════════════════════════════════════════════════════════════════╗\n");
+    printf("║                               Pesquisar Patinete                              ║\n");
+    printf("╚═══════════════════════════════════════════════════════════════════════════════╝\n");
+    printf("║ Informe o ID do Patinete:                                                     ║\n");
+    printf("║                                                                               ║\n");
+    printf("║ Modelo:                                                                       ║\n");
+    printf("║ Cor:                                                                          ║\n");
+    printf("║ Marca:                                                                        ║\n");
+    printf("║ Ano de Fabricação:                                                            ║\n");
+    printf("║ Bateria (capacidade):                                                         ║\n");
+    printf("║                                                                               ║\n");
+    printf("╚═══════════════════════════════════════════════════════════════════════════════╝\n");
     printf("Tecle <ENTER> para continuar...");
     getchar();
 }
 
 void atualizarPatinete(void){
     system("clear||cls");
-    printf("\n*-------------------------------------------------------------------------------*\n");
-    printf("*                          Atualizar Dados do Patinete                          *\n");
-    printf("*-------------------------------------------------------------------------------*\n");
-    printf("| Informe o ID do Patinete:                                                     |\n");
-    printf("|                                                                               |\n");
-    printf("|                           ↪Digite os Novos Dados↩                             |\n");
-    printf("| Modelo:                                                                       |\n");
-    printf("| Cor:                                                                          |\n");
-    printf("| Marca:                                                                        |\n");
-    printf("| Ano de Fabricação:                                                            |\n");
-    printf("| Bateria (capacidade):                                                         |\n");
-    printf("|                                                                               |\n");
-    printf("|                                                                               |\n");
-    printf("*-------------------------------------------------------------------------------*\n");
+    printf("\n╔═══════════════════════════════════════════════════════════════════════════════╗\n");
+    printf("║                          Atualizar Dados do Patinete                          ║\n");
+    printf("╚═══════════════════════════════════════════════════════════════════════════════╝\n");
+    printf("║ Informe o ID do Patinete:                                                     ║\n");
+    printf("║                                                                               ║\n");
+    printf("║                           ↪Digite os Novos Dados↩                             ║\n");
+    printf("║ Modelo:                                                                       ║\n");
+    printf("║ Cor:                                                                          ║\n");
+    printf("║ Marca:                                                                        ║\n");
+    printf("║ Ano de Fabricação:                                                            ║\n");
+    printf("║ Bateria (capacidade):                                                         ║\n");
+    printf("║                                                                               ║\n");
+    printf("║                                                                               ║\n");
+    printf("╚═══════════════════════════════════════════════════════════════════════════════╝\n");
     printf("Tecle <ENTER> para continuar...");
     getchar();
 }
 
 void deletarPatinete(void){
     system("clear||cls");
-    printf("\n*-------------------------------------------------------------------------------*\n");
-    printf("*                               Deletar Patinete                                *\n");
-    printf("*-------------------------------------------------------------------------------*\n");
-    printf("| Informe o ID do patinete a excluir:                                           |\n");
-    printf("|                                                                               |\n");
-    printf("*-------------------------------------------------------------------------------*\n");
+    printf("\n╔═══════════════════════════════════════════════════════════════════════════════╗\n");
+    printf("║                               Deletar Patinete                                ║\n");
+    printf("╚═══════════════════════════════════════════════════════════════════════════════╝\n");
+    printf("║ Informe o ID do patinete a excluir:                                           ║\n");
+    printf("║                                                                               ║\n");
+    printf("╚═══════════════════════════════════════════════════════════════════════════════╝\n");
     printf("Tecle <ENTER> para continuar...");
     getchar();
 }
