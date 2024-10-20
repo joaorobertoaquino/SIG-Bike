@@ -25,4 +25,4 @@ Este projeto foi desenvolvido por alunos do 2º período do curso de Bacharelado
 # Desenvolvedores
 
 - Ariadny Dantas | ariadnyfran15@gmail.com | ariadnyD
-- João Roberto | joaoroberto@gmail.com | joaorobertoaquino
+- João Roberto | galvaojoaoroberto@gmail.com | joaorobertoaquino
