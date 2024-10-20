@@ -1,10 +1,10 @@
-# 🚴‍♂️⚡ SIG - BIKE 🚴‍♀️⚡
+# 🛴⚡ SIG - BIKE 🚴‍♀️⚡
 
 ## 📝 Descrição
 
 Este projeto consiste em um sistema desenvolvido em C para a gestão de uma locadora de bicicletas e patinetes elétricos. O sistema tem como objetivo facilitar o registro, a locação e a devolução dos meios de transporte, além de oferecer funcionalidades de consulta e gerenciamento de usuários e veículos.
 
-## 🛡️ Funcionalidades
+## ⚙️ Funcionalidades
 
 - 🚲 Cadastro de bicicletas e patinetes elétricos.
 - 🛴 Locação e devolução de veículos.
